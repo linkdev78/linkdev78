@@ -1,0 +1,80 @@
+.flux {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.header {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    
+}    
+
+.header_container { 
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px 0;
+}    
+
+.header_image {
+    height: 100px;
+    width: 150px;
+}
+
+
+
+.header_list-link {
+    display : flex;
+    column-gap: 50px;
+    align-items: center;
+    height: 100%;
+}
+
+.header_link {
+  color: white;
+}
+
+.header_quick-action {
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+    
+     
+}
+
+.header_button {
+    background-color: white;
+    color: red;
+    margin: 30px; 
+    padding: 5px 10px;
+    border-radius: 15px;
+    display: flex;
+    
+    
+}    
+
+.header_button--rouge {
+    background-color: red;
+    color: white;
+    display: flex;
+
+}
+
+
+.main {
+    background-color: blue;
+}
+
+.article1 {
+    contenu
+}
+
+.article2 {
+    contenu
+}
+
+.article3 {
+    contenu
+}
